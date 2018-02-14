@@ -3,8 +3,8 @@ package com.iqmsoft;
 import org.apache.camel.builder.RouteBuilder;
 import org.apache.camel.cdi.ContextName;
 
-@ContextName("greeter-context")
-public class GreeterRouteBuilder extends RouteBuilder {
+@ContextName("my-context")
+public class MyRouteBuilder extends RouteBuilder {
 
     @Override
     public void configure() throws Exception {
